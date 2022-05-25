@@ -1,0 +1,33 @@
+@import "../styles/color.scss";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+  .btn-icon {
+    display: flex;
+    align-items: center;
+
+    i {
+      font-size: 24px;
+      padding-top: 10px;
+      color: $color-green;
+    }
+  }
+  nav {
+    .link-ul {
+      .link-item {
+        display: flex;
+        gap: 3rem;
+        a {
+          color: $color-black;
+          font-weight: 600;
+        }
+        .home {
+          color: $color-green;
+        }
+      }
+    }
+  }
+}
